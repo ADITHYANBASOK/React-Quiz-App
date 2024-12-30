@@ -1,8 +1,41 @@
-# React Quiz App
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive quiz application built with React and Framer Motion. This app supports progress tracking, question navigation, hints, and a results summary with detailed feedback.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dynamic Questions**: Displays a series of questions with multiple-choice answers.
+- **Progress Tracking**: Displays current progress with a progress bar.
+- **Hint System**: Provides optional hints for questions.
+- **Interactive Animations**: Animations powered by Framer Motion for a smooth user experience.
+- **Results Summary**: Detailed summary of answers after completing the quiz.
+- **Restart Functionality**: Option to retake the quiz.
+
+## Technologies Used
+
+- **React**: Frontend framework for building the UI.
+- **Framer Motion**: For animations and transitions.
+- **Tailwind CSS**: For styling components.
+
+## Components
+
+1. **App**: Main entry point that manages the quiz flow.
+2. **ProgressBar**: Displays the user's current progress in the quiz.
+3. **Question**: Renders the current question and handles answer selection.
+4. **Results**: Shows the user's final score and percentage.
+5. **QuizSummary**: Provides a detailed breakdown of each question, including correctness and hints used.
+6. **LoadingSpinner**: Displays a loading animation while fetching data.
+7. **ErrorMessage**: Shows an error message if there are issues fetching data.
+
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ADITHYANBASOK/quiz-app.git
+   cd quiz-app
+
+2. Install dependencies:
+   npm install
+
+3. Start the development server:
+   npm run dev
